@@ -1,0 +1,1 @@
+Analyze the @src\App.css @src\components\tracks\SongList.css styling and apply modern design improvements. I want it to look like a mobile playlist design  that doesn't look plain and boring. Align it with the theme of Spotify. Don't add  new files, just new styling.
