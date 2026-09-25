@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ydrey's Customizable DOM</title>
+</head>
+<body>
+    <button id="changeColorBtn">Change Background</button>
+    <p id="message">This paragraph will update in 2 seconds.</p>
+ 
+    <script>
+        const button = document.getElementById("changeColorBtn");
+        button.addEventListener("click", () => {
+        const color = prompt("Type a background color of your choice:");
+        document.body.style.backgroundColor = color;
+        });
+    
+        const message = document.getElementById("message");
+        setTimeout(() => {
+        message.textContent = "This paragraph updated itself after 2 seconds!";
+        }, 2000);
+    </script>
+</body>
+</html>
