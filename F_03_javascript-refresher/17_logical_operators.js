@@ -1,3 +1,5 @@
+// Truthy & Falsy
+
 const values = [0, "", "hi", null, undefined, [], {}];
 
 values.forEach((val) => {
@@ -7,6 +9,8 @@ values.forEach((val) => {
     console.log(val, "-> falsy");
   }
 });
+
+// &&, || and !
 
 const username = "ydrey";
 const password = "finalsjava!*";
