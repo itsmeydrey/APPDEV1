@@ -15,3 +15,11 @@ open 02_variables.js. explain the difference between string, number, boolean, ty
 
 ## Reflection
 Here, pwede ring mag pa explain ng code before mag implement ng any changes, so that alam natin na naiintindihan natin yung code na binuild.
+
+## 03_functions.js
+### Prompt
+now, open the 03_functions.js. change the square variable into cube, then change the value to 4. run node 03_functions.js. write a code-review explanation.
+
+### Reflection
+I learned na pwede rin tayong mag pa run ng code-review after editing the file na nilagay mo sa prompt mo.
+
