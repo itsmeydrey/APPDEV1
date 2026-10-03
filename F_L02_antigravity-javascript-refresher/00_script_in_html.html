@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ydrey's JS Refresher</title>
+</head>
+<body>
+    <h1>Ydrey's page loading...</h1>
+
+    <script>
+        console.log("Hi! This is an inline script running.");
+    </script>
+
+    <!-- Classic script: runs immediately where it sits -->
+    <script src="legacy.js"></script>
+
+    <!-- Rewritten external script tag as a module -->
+    <script type="module" src="app.js"></script>
+
+    <!-- Second module script importing a named export -->
+     <script type="module">
+        import { myInfo } from "./15_modules_export.js";
+        console.log(myInfo.name);
+     </script>
+</body>
+</html>
