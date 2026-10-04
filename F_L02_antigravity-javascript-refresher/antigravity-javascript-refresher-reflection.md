@@ -26,3 +26,10 @@ I learned na pwede rin tayong mag pa run ng code-review after editing the file n
 open 04_objects.js. explain why does the introduce() function inside the aboutMe variable with the properties name, age, and course.
 ### Reflection
 I learned that we can ask for explanation din about object inside the file.
+
+## 05_arrays.js
+### Prompt
+run 05_arrays.js. after running it, compare the original array and the transformed array inside the file.
+### Reflection
+I learned that we can also compare arrays, to see the difference between  the original one and the transformed one. In this way, we understand the code before implementing it.
+
