@@ -64,9 +64,15 @@
 
     /* ---------- Controls ---------- */
     --button-height: 60px;
+    --social-button-height: 44px;
+    --radius-social: 6px;
+    --color-social-border: #b8c8ff;
+    --color-social-hover: #f5f7ff;
+    --color-divider: #888888;
     --input-padding-top: 18px;
     --input-padding-bottom: 14px;
     --input-margin-bottom: 28px;
     --button-margin-top: 16px;
     --signup-margin-top: 24px;
 }
+

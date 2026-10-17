@@ -2,7 +2,7 @@
 import styles from "./Login.module.css";
 import logo from "../assets/logo.svg";
 
-export default function Login() {
+export default function Login({ onSwitch }) {
     return (
         <div className={styles.login}>
             <section className={styles.left}>
@@ -38,7 +38,7 @@ export default function Login() {
 
                     <p className={styles.signup}>
                         Don't have an account?{" "}
-                        <a href="#">Signup Here</a>
+                        <a href="#" onClick={(e) => { e.preventDefault(); onSwitch?.(); }}>Signup Here</a>
                     </p>
                 </div>
             </section>
