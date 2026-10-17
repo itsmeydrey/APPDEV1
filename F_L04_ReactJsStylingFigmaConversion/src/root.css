@@ -1,0 +1,72 @@
+
+:root {
+    /* ---------- Colors ---------- */
+    --color-primary: #5b86e5;
+    --color-sidebar: #a9c0f0;
+    --color-background: #ffffff;
+    --color-white: #ffffff;
+    --color-text: #111111;
+    --color-text-muted: #9a9a9a;
+    --color-border: #333333;
+    --color-input-border: #333333;
+    --color-focus: #5b86e5;
+
+    /* ---------- Typography ---------- */
+    --font-family-base: 'Montserrat', sans-serif;
+
+    --font-size-xs: 12px;
+    --font-size-sm: 14px;
+    --font-size-base: 16px;
+    --font-size-lg: 28px;
+    --font-size-heading: 32px;
+
+    --font-weight-light: 300;
+    --font-weight-regular: 400;
+    --font-weight-medium: 500;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+
+    --line-height-base: 1.25;
+    --letter-spacing-base: 1px;
+
+    /* ---------- Spacing ---------- */
+    --spacing-xs: 8px;
+    --spacing-sm: 16px;
+    --spacing-md: 24px;
+    --spacing-lg: 28px;
+    --spacing-xl: 36px;
+    --spacing-2xl: 60px;
+    --spacing-heading-bottom: 110px;
+
+    /* ---------- Layout ---------- */
+    --login-width: 86vw;
+    --login-height: 82vh;
+    --login-min-height: 600px;
+
+    --sidebar-width: 34%;
+    --form-width: 575px;
+    --form-max-width: 90%;
+
+    --sidebar-padding-top: 12vh;
+    --sidebar-padding-horizontal: 60px;
+    --sidebar-padding-bottom: 36px;
+
+    --logo-height: 30vh;
+    --logo-max-height: 304px;
+
+    /* ---------- Borders and Radius ---------- */
+    --border-width: 1px;
+    --radius-button: 8px;
+    --radius-panel: 60px;
+
+    /* ---------- Effects ---------- */
+    --shadow-logo: 0 20px 20px rgba(60, 80, 140, 0.35);
+
+    /* ---------- Controls ---------- */
+    --button-height: 60px;
+    --input-padding-top: 18px;
+    --input-padding-bottom: 14px;
+    --input-margin-bottom: 28px;
+    --button-margin-top: 16px;
+    --signup-margin-top: 24px;
+}
