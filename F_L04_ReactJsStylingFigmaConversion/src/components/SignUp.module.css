@@ -189,10 +189,12 @@
 
 
 /* Responsive layout */
-@media (max-width: 600px) {
+@media (max-width: 640px) {
     .signupPage {
-        min-height: 100vh;
+        width: 100vw;
         height: auto;
+        min-height: 100vh;
+        border-radius: 0;
     }
 
     .left {
@@ -201,26 +203,69 @@
 
     .right {
         min-height: 100vh;
-        padding: 30px 24px;
+        padding: 40px 24px;
         border-radius: 0;
+    }
+
+    .form {
+        width: 100%;
+        max-width: 360px;
+    }
+
+    .form h2 {
+        font-size: 24px;
+        margin-bottom: var(--spacing-lg);
+        text-align: center;
+    }
+
+    .socialButton {
+        font-size: 11px;
+        padding: 0 6px;
+    }
+
+    .submitButton {
+        height: 52px;
+    }
+}
+
+@media (min-width: 641px) and (max-width: 992px) {
+    .signupPage {
+        width: 94vw;
+        height: auto;
+        min-height: 600px;
+    }
+
+    .left {
+        width: 38%;
+        padding: 8% 4%;
+    }
+
+    .tagline {
+        font-size: 22px;
+    }
+
+    .logo {
+        max-height: 180px;
+    }
+
+    .right {
+        padding: 32px;
+        border-radius: 40px 0 0 40px;
     }
 
     .form {
         max-width: 340px;
     }
-}
 
-@media (min-width: 601px) and (max-width: 800px) {
-    .left {
-        flex-basis: 35%;
-        padding: 8% 3%;
+    .form h2 {
+        font-size: 26px;
     }
 
-    .right {
-        padding: 28px;
+    .socialButton {
+        font-size: 11px;
     }
 
-    .form {
-        max-width: 295px;
+    .submitButton {
+        height: 54px;
     }
 }
