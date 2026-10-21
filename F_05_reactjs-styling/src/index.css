@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+  --color-primary: #52697a;
+  --color-heading: #829a9d;
+  --color-text: #60798c;
+  --color-muted: #bdc9d1;
+  --color-placeholder: #aabac7;
+  --color-background: #ffffff;
+
+  --font-family-base: "Istok Web", Arial, sans-serif;
+
+  --spacing-md: 16px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+  margin: 0;
+}
+
+body {
+  min-width: 320px;
+  font-family: var(--font-family-base);
+  background: #f7f7f7;
+  color: var(--color-text);
+}
+
+button,
+input {
+  font: inherit;
+}
